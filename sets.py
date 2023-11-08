@@ -2,10 +2,10 @@
 # Set is an unordered collection, hence order of insertion is not same as the order of access
 # set() function can be used to convert list or tuple into a set
 # Sets are like lists and their content can be mutable
-# s = {"who", "did", "invent"}
-# print(s)
-# s.add("automobile")
-# print(s)
+s = {"who", "did", "invent"}
+print(s)
+s.add("automobile")
+print(s)
 # If we want an immutable set, we should use frozenset
 # s = frozenset({"I", "know", "Python"})
 # s.add("program")

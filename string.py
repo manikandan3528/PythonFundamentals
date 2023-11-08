@@ -9,21 +9,21 @@ name = 'Pychram IDE'
 message = "Hi, This is a hello message from me"
 description = '''I am entering some random message in 
                 two lines'''
-# print(name)
-# print(message)
-# print(description)
+print(name)
+print(message)
+print(description)
 ## Accessing String Elements
 #   String elements can be accessed using an index value, starting with 0.
 #       Negative index value is allowed. The last character is considered to be at index -1.
 a = 'helLo world'
-# print(a[-5])
+print(a[3])
 #   A substring can be sliced out of a string e.g. s[start:end]
 print(a[6:9])
 #   Using too large an index reports an error.
 # print(a[100])
 ## String properties
 #   All strings are objects of build-in type str. print(type(msg))
-# print(type(name))
+print(type(name))
 # principle = 1000.00
 # print(type(principle))
 #   Python strings are immutable - they can't be changed
@@ -42,7 +42,6 @@ print("siva" in fullname2)
 print("siva" in fullname3)
 ## String operations
 #   Many built-in string functions are available.
-print(fullname.lower())
 a = (10000,4000,60000)
 b = 12000
 c = 15000

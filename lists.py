@@ -16,7 +16,7 @@
 animals = ["cat", "dog", "lion", "tiger"]
 ages = [28, 40, 35, 2, 8, 65]
 
-# print(animals, ages)
+print(animals, ages)
 
 # Like string list can be sliced
 # print(animals[1:3])
